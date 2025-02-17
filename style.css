@@ -1,0 +1,107 @@
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+
+.img-circle {
+  width: 150px;
+  border-radius: 50%;
+}
+
+h1,h2 {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  color: #d86757;
+  margin-bottom: 29px;
+  padding: 0px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px
+}
+
+.container {
+ background-color:#efefee;
+ width: 500px;
+ margin: 50px auto;
+ padding: 3em;
+}
+
+.btn-red {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+  width: auto;
+  padding: 3px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a {
+color: #d86757;
+}
+
+p {
+  font-family: "Robot", sans-serif;
+  color: #403e3d;
+  font-size: 13px;
+  text-align: center;
+  font-style: normal;
+}
+
+.btn-with {
+  display: block;
+  margin-bottom: 9px;
+  width: 30;
+  padding: 5px 15 px;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #efefee;
+  text-decoration: none;
+}
+
+/*  FOOTER */
+.list-inline > li {
+  display: inline-block;
+  width: 500;
+  margin: 70px;
+}
+
+footer {
+  background-color: #d86757;
+  padding: 1em;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
